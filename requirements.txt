@@ -1,32 +1,8 @@
-tensorflow==2.13.0
+streamlit
+tensorflow-cpu==2.9.1
 opencv-python
 numpy
 matplotlib
 seaborn
 joblib
 scikit-learn
-streamlit
-tensorflow
-playsound
-
-
-
-
-Create the file:
-Save the above lines as a file named requirements.txt in your project folder.
-
-Install all libraries at once (in terminal or Jupyter):
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-(Optional) If you're using a virtual environment, activate it before installing:
-
-bash
-Copy
-Edit
-python -m venv venv
-venv\Scripts\activate  # (on Windows)
-source venv/bin/activate  # (on Linux/Mac)
-pip install -r requirements.txt
